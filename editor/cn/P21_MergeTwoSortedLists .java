@@ -67,7 +67,7 @@ class Solution {
 		while (list1 != null && list2 != null) {
 			if (list1.val <= list2.val) {
 				prev.next = list1;
-				list1 = list1.next;
+				list1 = list1.next ;
 			} else {
 				prev.next = list2;
 				list2 = list2.next;
